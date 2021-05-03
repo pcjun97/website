@@ -3,10 +3,7 @@ title: "About"
 date: 2021-05-01T17:29:02+08:00
 ---
 Oh, hey there!
-I am June.
-
-Well, my actual name is Poh Chi Jun, which is a Malaysia-variant Chinese name
-("Poh" is my family name).
+I am Chi Jun. You can call me Jun or June as well.
 
 I spend most of my time playing video games
 and when I'm not, you will probably find me napping somewhere else.
