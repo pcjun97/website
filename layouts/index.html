@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <main>
+    {{ .Content }}
+  </main>
+
+  <aside>
+    <h1>Recent posts</h1>
+    <ul>
+    {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul> 
+  </aside>
+
+  <aside>
+    <h1>Recent notes</h1>
+    <ul>
+    {{ range first 5 (where .Site.RegularPages "Type" "notes") }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    </ul> 
+  </aside>
+{{ end }}

@@ -1,0 +1,26 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>{{ .Site.Title }} | {{ .Title }}</title>
+
+  <meta name="description" content="{{ .Description }}">
+  <meta property="og:title" content="{{ .Site.Title }} | {{ .Title }}">
+  <meta property="og:description" content="{{ .Description }}">
+  <meta property="og:image" content="https://www.mywebsite.com/image.jpg">
+  <meta property="og:image:alt" content="Image description">
+  <meta property="og:locale" content="{{ .Site.LanguageCode }}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/my.webmanifest">
+  <meta name="theme-color" content="{{ .Site.Params.ThemeColor }}">
+
+  <link rel="stylesheet" type="text/css" href="/main.css">
+</head>
+

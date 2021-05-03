@@ -1,0 +1,55 @@
+baseURL = "https://chijun.website"
+languageCode = "en_MY"
+title = "chijun"
+paginate = 1
+
+[language]
+lang = "en"
+
+[params]
+themeColor = "#14bdfd"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Notes"
+url = "/notes"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[[menu.posts]]
+name = "all"
+url = "/posts"
+weight = 1
+
+[[menu.posts]]
+name = "dev"
+url = "/categories/dev"
+weight = 2
+
+[[menu.posts]]
+name = "casual"
+url = "/categories/casual"
+weight = 3
+
+[[menu.posts]]
+name = "reviews"
+url = "/categories/reviews"
+weight = 4
+
+[[menu.posts]]
+name = "tags"
+url = "/tags"
+weight = 5
