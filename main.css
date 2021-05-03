@@ -1,0 +1,10 @@
+html {
+  font-family: monospace;
+}
+
+h1:not(#site-title)::before { color: var(--maincolor); content: '# '; }
+h2::before { color: var(--maincolor); content: '## '; }
+h3::before { color: var(--maincolor); content: '### '; }
+h4::before { color: var(--maincolor); content: '#### '; }
+h5::before { color: var(--maincolor); content: '##### '; }
+h6::before { color: var(--maincolor); content: '###### '; }
